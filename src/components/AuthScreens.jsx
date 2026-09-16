@@ -106,7 +106,7 @@ export function AuthScreen() {
           <button className="btn primary" type="submit" disabled={busy}>
             {busy ? 'Please wait…' : isSignup ? 'Sign up' : 'Log in'}
           </button>
-          <button
+          {/* <button
             className="btn ghost"
             type="button"
             onClick={() => {
@@ -115,7 +115,7 @@ export function AuthScreen() {
             }}
           >
             {isSignup ? 'Already have an account? Log in' : 'Sign up'}
-          </button>
+          </button> */}
         </form>
       </main>
     </div>
